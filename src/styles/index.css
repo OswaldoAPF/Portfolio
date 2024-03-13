@@ -1,0 +1,228 @@
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #686868;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(241, 241, 241, 0.29)
+}
+
+
+/* ----------------- HeroSection ----------------- */
+
+.img__profile {
+  background-image: url(../assets/img/profile.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 7px rgba(56, 54, 54, 0.488);
+  border-radius: 50%;
+  justify-self: center;
+  order: 1;
+  width: 300px;
+  height: 300px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+/* ----------------- ContactSection ----------------- */
+
+.card__contact svg {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  padding: 0.25rem;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.card__contact .social-link1,.card__contact .social-link2,.card__contact .social-link3,.card__contact .social-link4,.card__contact .social-link5 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  transition: 0.25s;
+  border-radius: 50px;
+  transition: scale 0.4s, background-color 0.4s, transform 0.4s, filter 0.4s ease;
+}
+
+.card__contact .social-link1:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  animation: upIcon 0.2s linear forwards;
+}
+
+.card__contact .social-link2:hover {
+  background-color: #242c34;
+  animation: upIcon 0.2s linear forwards;
+}
+
+.card__contact .social-link3:hover {
+  background-color: #5865f2;
+  animation: upIcon 0.2s linear forwards;
+}
+
+.social-link3 span {
+  display: none;
+}
+
+.social-link3:hover span {
+  background-color: black;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+
+  display: block;
+  position: absolute;
+  top: -40px;
+
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card__contact .social-link4:hover {
+  background-color: #0a66c2;
+  animation: upIcon 0.2s linear forwards;
+}
+
+.card__contact .social-link5:hover {
+  background-color: #2AD04A;
+  animation: upIcon 0.2s linear forwards;
+  transition: animation 0.2s ease;
+}
+
+@keyframes upIcon {
+
+  from {
+    scale: 1;
+    transform: translateY(0px);
+  }
+  
+  to {
+    scale: 1.2;
+    transform: translateY(-15px);
+  }
+
+}
+
+
+/* ----------------- SkillSection ----------------- */
+
+
+.animate-scroll {
+  animation: scroll 13s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX( calc(-100px * 13 - 1.5rem * 26) );
+  }
+}
+
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.show__component {
+  view-timeline-name: --component;
+  view-timeline-axis: block;
+
+  animation-timeline: --component;
+  animation-name: show;
+  animation-range: entry 25% cover 40%;
+  animation-fill-mode: both;
+}
+
+.button__download {
+  position: absolute;
+  width: 200px;
+  padding: 5px 5px 5px 20px;
+  left: -140px;
+  top: 8px;
+  transition: transform 0.3s ease, opacity 0.2s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.icon__button__download:hover + .button__download {
+  opacity: 1;
+  transform: translateX(165px);
+  transition: transform 0.5s ease, opacity 2s ease;
+}
+
+.before-custom-1 {
+  display: none;
+}
+
+.card-project {
+  transition: scale 0.2s ease;
+}
+
+.card-project:hover .before-custom-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.before-custom-1 a span {
+  font-weight: 300;
+}
+
+.before-custom-1 a:hover svg {
+  color: #5865f2;
+  scale: 1.2;
+  transition: scale 0.2s ease;
+}
+
+.background__container div canvas {
+  width: unset !important;
+}
+
+.background__container div canvas {
+  min-width: 100% !important;
+  height: auto !important;
+  display: block;
+}
+
+
+

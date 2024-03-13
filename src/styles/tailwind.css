@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .bg-gradient-custom-1{
+    background: radial-gradient(circle at center, rgba(84, 75, 205, 0.8) 0, rgba(108, 59, 255, 0) 50%) no-repeat;
+  }
+
+  .bg-gradient-custom-2{
+    background: radial-gradient(circle at center, rgba(81, 75, 148, 0.8) 0, rgba(108, 59, 255, 0) 50%) no-repeat;
+  }
+
+  .shadow-custom-1{
+    box-shadow: 0px 0px 30px rgba(84, 75, 205, 0.268);
+
+  }
+  .shadow-custom-2{
+    box-shadow: inset 0px 0px 60px rgba(62, 48, 255, 0.268);
+  }
+  
+  .before-custom-1{
+    background-color: rgba(0, 0, 0, 0.603);
+    backdrop-filter: blur(3px);
+  }
+
+  .active {
+    color: rgb(84, 75, 205)
+  }
+  
+}
