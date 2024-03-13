@@ -13,7 +13,7 @@ export const Works = () => {
 
         <p className="text-gray-700 dark:text-gray-400 font-bold md:text-xl text-right">Here you will find the code for this portfolio &#10230;</p>
 
-        <a className="cursor-pointer w-[150px] flex justify-center items-center gap-2 px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 md:text-md z-[2] hover:scale-105 duration-500 hover:ring-1">
+        <a href="https://github.com/OswaldoAPF/Portfolio" target="_blank" rel="noreferrer" className="cursor-pointer w-[150px] flex justify-center items-center gap-2 px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 md:text-md z-[2] hover:scale-105 duration-500 hover:ring-1">
           <BsGithub />
           <span>Github</span>
         </a>
