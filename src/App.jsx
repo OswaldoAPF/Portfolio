@@ -35,7 +35,7 @@ export const App = () => {
       <button
         type="button"
         onClick={ handleThemeSwitch }
-        className="fixed z-30 right-3 top-3 bg-indigo-800 hover:bg-indigo-500 text-lg rounded-md text-gray-200 p-2 md:p-3"
+        className="fixed z-30 right-3 top-3 bg-indigo-800 hover:bg-indigo-500 text-lg rounded-md text-gray-200 p-2 md:p-3 hover:scale-105 duration-500"
       >
         { theme === "dark" ? ( <BsSunFill className="w-full h-full" /> ) : ( <BsFillMoonFill className="w-full h-full" /> ) }
       </button>
