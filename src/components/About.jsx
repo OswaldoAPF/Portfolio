@@ -3,7 +3,7 @@ import Profile from "../assets/img/profile.webp";
 
 export const About = () => {
   return (
-    <div id="about" className="md:h-screen h-auto flex flex-col justify-center">
+    <div id="about" className="md:h-screen h-auto flex flex-col justify-center mt-[200px]">
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 lg:gap-20 show__component">
 

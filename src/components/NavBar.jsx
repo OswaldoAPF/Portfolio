@@ -35,8 +35,8 @@ export const NavBar = () => {
     <>
       <div 
         className={ 
-          view ? ( "navbar fixed md:left-0 md:top-0 z-20 md:w-full md:h-16 flex md:justify-start md:items-center text-gray-600 dark:text-gray-300 bg-slate-400 dark:bg-slate-800 md:rounded-none md:pb-0 bottom-0 w-[98%] h-[200px] shadow-custom-1 rounded-t-lg left-[5px] justify-center items-center dalay-150 duration-300 pb-16" )
-          : ( "navbar fixed md:left-0 md:top-0 z-20 md:w-full md:h-16 flex justify-start items-center text-gray-600 dark:text-gray-300 bg-slate-400 dark:bg-slate-950 md:shadow-custom-1 bottom-[-100%] w-[98%] dalay-150 duration-300" )
+          view ? ( "navbar fixed md:left-0 md:top-0 z-20 md:w-full md:h-16 flex md:justify-start md:items-center text-gray-700 dark:text-gray-300 bg-slate-400 dark:bg-slate-800 md:rounded-none md:pb-0 bottom-0 w-[98%] h-[200px] shadow-custom-1 rounded-t-lg left-[5px] justify-center items-center dalay-150 duration-300 pb-16" )
+          : ( "navbar fixed md:left-0 md:top-0 z-20 md:w-full md:h-16 flex justify-start items-center text-gray-700 dark:text-gray-300 bg-slate-400 dark:bg-slate-950 md:shadow-custom-1 bottom-[-100%] w-[98%] dalay-150 duration-300" )
         }
       >
 
@@ -72,7 +72,7 @@ export const NavBar = () => {
           </li>
 
           <li className="nav_item">
-            <Link to="about" spy={true} smooth={true} offset={-30} duration={500} className="cursor-pointer select-none flex flex-col items-center dark:hover:text-indigo-500 hover:text-indigo-700">
+            <Link to="about" spy={true} smooth={true} offset={-40} duration={500} className="cursor-pointer select-none flex flex-col items-center dark:hover:text-indigo-500 hover:text-indigo-700">
               <AiOutlineUser className="md:hidden text-xl"></AiOutlineUser> About Me
             </Link>
           </li>

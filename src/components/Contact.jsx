@@ -48,8 +48,6 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    const myIcon = "🚀"
-
     if (validateForm()) {
       emailjs
       .sendForm( 'service_g207eb7', 'template_smvuf4r', form.current, { publicKey: 'hu6ME5Z7vv5J47-H7' } )
