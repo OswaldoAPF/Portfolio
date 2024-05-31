@@ -4,7 +4,7 @@ import { ServiceItem } from "./ServiceItem";
 
 export const Services = () => {
   return (
-    <div id="services" className="h-auto md:h-screen flex flex-col justify-center pb-5">
+    <div id="services" className="h-auto md:h-screen flex flex-col justify-center">
       <SectionTitle className="mt-10">My Services</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 show__component">
         {

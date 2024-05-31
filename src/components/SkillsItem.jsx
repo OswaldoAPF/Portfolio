@@ -1,11 +1,8 @@
 
-export const SkillsItem = ({ imgUrl, name }) => {
+export const SkillsItem = ({ text, icon, color }) => {
   return (
-    <div className="h-full w-[100px] my-2 mx-6 flex-shrink-0">
-      <div className="overflow-hidden relative">
-        <span className=" w-10 h-5 absolute top-[-40px]">{name}</span>
-        <img loading="lazy" src={imgUrl} alt={name}/>
-      </div>
+    <div className="tag shadow-custom-1 cursor-default bg-slate-500 hover:bg-slate-400 dark:bg-slate-800 dark:hover:bg-slate-700 text-gray-200 dark:text-gray-200">
+      <span style={{color: color}}>{icon}</span>{text}
     </div>
   );
 };

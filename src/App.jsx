@@ -40,7 +40,7 @@ export const App = () => {
         { theme === "dark" ? ( <BsSunFill className="w-full h-full" /> ) : ( <BsFillMoonFill className="w-full h-full" /> ) }
       </button>
       <div className="font-quicksand">
-          <div className="max-w-5xl mx-auto w-11/12 flex flex-col gap-20">
+          <div className="max-w-5xl mx-auto w-11/12 flex flex-col gap-36">
             <Background theme={theme} />
             <NavBar />
             <HeroSection />

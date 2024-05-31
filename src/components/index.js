@@ -6,6 +6,8 @@ export * from './Services';
 export * from './About';
 export * from './NavBar';
 export * from './Skills';
+export * from './InfiniteSlider';
+export * from './SkillsItem';
 export * from './Contact';
 export * from './LightMouse';
 export * from './Background';

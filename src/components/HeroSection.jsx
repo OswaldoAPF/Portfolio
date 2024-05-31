@@ -24,7 +24,7 @@ export const HeroSection = () => {
             <div className="flex gap-4">
               <Link
                 to="works" spy={true} smooth={true} offset={-50} duration={500}
-                className="cursor-pointer inline-block px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-800 hover:bg-indigo-500 md:text-md z-[2]"
+                className="cursor-pointer px-8 py-3 border border-transparent text-[12px] font-medium rounded-md text-white bg-indigo-800 hover:bg-indigo-500 md:text-lg z-[2] hover:scale-105 duration-500 flex items-center"
               >
                 See Works
               </Link>
@@ -32,7 +32,7 @@ export const HeroSection = () => {
                 <BsGithub className="w-[40%] h-[100%]" />
               </a>
 
-              <a href="../../public/CV-Oswaldo-Pereira.pdf" download className="cursor-pointer flex justify-center items-center gap-3  bg-gray-800 rounded-md text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 w-[140px]">
+              <a href="../../public/CV-Oswaldo-Pereira.pdf" download className="cursor-pointer flex justify-center items-center gap-3 text-[12px] md:text-lg  bg-gray-800 rounded-md text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 w-[120px] md:w-[140px]">
                 <span>Resume</span>
                 <BsArrowDown className="w-5 h-5 animate-bounce" />
               </a>

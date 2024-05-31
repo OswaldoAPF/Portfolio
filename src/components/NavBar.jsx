@@ -60,7 +60,7 @@ export const NavBar = () => {
           </li>
 
           <li className="nav_item">
-            <Link to="skills" spy={true} smooth={true} offset={0} duration={500} className="cursor-pointer select-none flex flex-col items-center dark:hover:text-indigo-500 hover:text-indigo-700">
+            <Link to="skills" spy={true} smooth={true} offset={-150} duration={500} className="cursor-pointer select-none flex flex-col items-center dark:hover:text-indigo-500 hover:text-indigo-700">
               <FaReact className="md:hidden text-xl"></FaReact> Skills
             </Link>
           </li>
@@ -78,7 +78,7 @@ export const NavBar = () => {
           </li>
 
           <li className="nav_item">
-            <Link to="contact" spy={true} smooth={true} duration={500} className="cursor-pointer select-none flex flex-col items-center dark:hover:text-indigo-500 hover:text-indigo-700">
+            <Link to="contact" spy={true} smooth={true} offset={20} duration={500} className="cursor-pointer select-none flex flex-col items-center dark:hover:text-indigo-500 hover:text-indigo-700">
               <TbMessage className="md:hidden text-xl"></TbMessage> Contact
             </Link>
           </li>

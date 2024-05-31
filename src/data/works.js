@@ -1,12 +1,5 @@
 export default [
   {
-    title: 'Gif Expert App',
-    imgUrl: 'https://raw.githubusercontent.com/OswaldoAPF/images/main/gif-expert-app.png',
-    tech: ['React JS', 'CSS'],
-    github: 'https://github.com/OswaldoAPF/react-gif-expert',
-    host: 'https://gif-expert-oswal.netlify.app/'
-  },
-  {
     title: 'Stock System',
     imgUrl: 'https://raw.githubusercontent.com/OswaldoAPF/images/main/sistema-de-stock.png',
     tech: ['Vue JS', 'Bootstrap', 'Firebase'],
@@ -21,10 +14,24 @@ export default [
     host: 'https://pokedex-app-oswaldoapf.netlify.app/'
   },
   {
-    title: 'Cart Wave',
-    imgUrl: 'https://img.freepik.com/free-vector/coming-soon-background-with-focus-light-effect-design_1017-27277.jpg?w=740&t=st=1709149675~exp=1709150275~hmac=aebe74a3ad043e1f44817ac75d4c40f8466ed8feb3e74137bff1871d2272d097',
-    tech: ['React JS', 'Ruby on Rails', 'Tailwind'],
-    github: '',
-    host: ''
+    title: 'Compleet Labs',
+    imgUrl: 'https://raw.githubusercontent.com/OswaldoAPF/images/main/image.png',
+    tech: ['HTML', 'CSS', 'Javascript'],
+    github: 'https://github.com/OswaldoAPF/SPA-SergieCode',
+    host: 'https://imgamer-sergicode-oswaldo-pereira.netlify.app/'
+  },
+  {
+    title: 'Gif Expert App',
+    imgUrl: 'https://raw.githubusercontent.com/OswaldoAPF/images/main/gif-expert-app.png',
+    tech: ['React JS', 'CSS'],
+    github: 'https://github.com/OswaldoAPF/react-gif-expert',
+    host: 'https://gif-expert-oswal.netlify.app/'
+  },
+  {
+    title: 'Compleet Labs',
+    imgUrl: 'https://raw.githubusercontent.com/OswaldoAPF/images/main/Screenshot%202024-04-20%20181959.png',
+    tech: ['HTML', 'Javascript', 'Bootstrap', 'CSS'],
+    github: 'https://github.com/OswaldoAPF/domo-test',
+    host: 'https://compleet-labs-domo.netlify.app/'
   },
 ]
