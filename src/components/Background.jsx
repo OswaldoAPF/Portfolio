@@ -11,7 +11,7 @@ export const Background = () => {
     script.onload = () => {
       window.particlesJS('particles-js', {
         particles: {
-          number: { value: 60 },
+          number: { value: 40 },
           color: { value: "#fff" },
           shape: { type: 'circle' },
           line_linked: { enable: true, distance: 150, color: "#fff", opacity: 0.5, width: 1 },
@@ -39,4 +39,3 @@ export const Background = () => {
     <div id="particles-js" style={{ position: 'fixed', width: '100%', height: '100%', zIndex: 0, top: 0, left: 0 }}></div>
   );
 };
-

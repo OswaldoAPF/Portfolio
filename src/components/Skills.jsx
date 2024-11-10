@@ -33,7 +33,3 @@ export const Skills = () => {
     </div>
   )
 }
-
-
-
-

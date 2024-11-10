@@ -134,4 +134,3 @@ export const Contact = () => {
     </div>
   )
 }
-

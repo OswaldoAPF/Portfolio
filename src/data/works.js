@@ -14,7 +14,7 @@ export default [
     host: 'https://pokedex-app-oswaldoapf.netlify.app/'
   },
   {
-    title: 'Compleet Labs',
+    title: 'I´m gamer',
     imgUrl: 'https://raw.githubusercontent.com/OswaldoAPF/images/main/image.png',
     tech: ['HTML', 'CSS', 'Javascript'],
     github: 'https://github.com/OswaldoAPF/SPA-SergieCode',
